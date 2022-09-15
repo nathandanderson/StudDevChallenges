@@ -36,6 +36,8 @@ def highestInteger(x, y, z):
 
 
 # Factorial function declaration
+# I know that you want it with recursion, I didn't see that at first 
+# so here was my initial function, below you can find the one with recurion.
 def factorial (n):
     # Converting input to int and initializing array where values will be stored.
     n = int(n)
@@ -54,7 +56,7 @@ def factorial (n):
 
 
 
-# Attempt 2 at factorials (I admittedly did not see you wanted us to do it with recurion initially so I created this one with recurion.)
+# Attempt 2 at factorials (I admittedly did not see you wanted us to do it with recurion initially so I created this one with recursion.)
 def factorialRecursion(n):
     # Converting input to int and verifying whether output exists in a given iteration or not.
     n = int(n)
